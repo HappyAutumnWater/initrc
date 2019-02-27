@@ -1,4 +1,4 @@
-# Linux配置文件
+# Mac配置文件
 1. .vimrc使用之前请安装Vundle
 
 2. 使用zshrcToAdd方法：
