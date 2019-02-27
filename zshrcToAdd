@@ -1,0 +1,22 @@
+# cat zshrcToAdd > .zshrc加入到.zshrc末尾
+#GOROOT todo
+export GOROOT=/usr/local/go
+#GOPATH todo
+export GOPATH=$HOME/Documents/go_workspace
+#GOROOT bin
+export PATH=$PATH:$GOROOT/bin
+#GOPATH bin
+export PATH=$PATH:$GOPATH/bin
+
+export PATH=$PATH:/usr/local/sbin
+#todo
+export GRADLE_HOME=/Users/julin/.gradle/wrapper/dists/gradle-5.2.1
+export export PATH=$PATH:$GRADLE_HOME/bin
+#todo
+export PATH=$PATH:/usr/local/bin/chromedriver
+
+#export http_proxy="http://127.0.0.1:1081"
+#export https_proxy="http://127.0.0.1:1081"
+
+alias vim='mvim -v'
+
